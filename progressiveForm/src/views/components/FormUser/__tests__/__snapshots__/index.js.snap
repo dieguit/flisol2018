@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormUser Component should match snapshot 1`] = `
+<Segment>
+  <h2>
+    Step 3
+  </h2>
+  <Message
+    content=""
+    hidden={true}
+    negative={true}
+  />
+  <MockField
+    component={[Function]}
+    name="username"
+  />
+  <MockConfirm
+    component={[Function]}
+  />
+</Segment>
+`;
