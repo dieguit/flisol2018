@@ -13,8 +13,6 @@ const getCompletedSteps = createSelector(
   getFormValidity,
   getFormConfirmed,
   (validSteps, confirmedSteps) => {
-    // I just wanted to make this right, if you are here to see the for loop, please check:
-    //
     const completedSteps = Object.keys(validSteps).reduce((completedSteps, key) => {
       if (validSteps[key] === true && confirmedSteps[key] !== false)
         return [key, ...completedSteps];
